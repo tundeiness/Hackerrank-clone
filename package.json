@@ -1,0 +1,20 @@
+{
+  "name": "hackerrank-clone",
+  "version": "1.0.0",
+  "description": "Re-engineering of Hackerrank using a simple grid-based framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tundeiness/Hackerrank-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tundeiness/Hackerrank-clone/issues"
+  },
+  "homepage": "https://github.com/tundeiness/Hackerrank-clone#readme"
+}

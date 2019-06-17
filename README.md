@@ -9,7 +9,7 @@ Meet Radouane here on [Github](http://www.google.com) and, here on  [LinkedIn](h
 Meet Tunde here on  [Github](http://www.google.com) and,  here on [LinkedIn](http://www.google.com)
 
 ## Technologies used.
-HTML and, CSS
+HTML, CSS, SASS
 
 
 ## Setup
