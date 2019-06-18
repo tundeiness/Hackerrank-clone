@@ -67,7 +67,7 @@
     text-align: center;
     margin: 3rem auto;
     padding: 1rem 0;
-    border: 1px solid red;
+    // border: 1px solid red;
 
     &--btn {
       display: inline-block;
@@ -81,15 +81,36 @@
       font-weight: 600;
       line-height: .5rem;
       text-transform: capitalize;
+      margin-bottom: 1.5rem;
     }
 
     &--learn {
-      
+      color: #666;
 
 
       .underline {
-
+        text-decoration: underline;
+        text-decoration-color: #000;
+        cursor: pointer;
       }
+
+      .underline:hover {
+        text-decoration: none;
+
+    }
+
+  }
+
+
+  &__icon-div {
+
+    width: 100%;
+    margin: 0 2rem;
+    text-align: center;
+    overflow: hidden;
+    &--icon{
+      height: 50%;
+
     }
 
   }
