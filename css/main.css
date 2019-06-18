@@ -1,2 +1,21 @@
-body {
-  background: #fff; }
+@media only screen and (min-width: 990px) {
+  .hide-on-lg {
+    display: none; }
+  .hide-on-sm {
+    display: block !important; } }
+
+.hide-on-sm {
+  display: none; }
+
+.nav {
+  margin: 5rem auto; }
+  .nav__logo-div--img {
+    max-width: 10em;
+    margin-left: 2rem; }
+  .nav__menu--hamburger-div {
+    text-align: right; }
+  .nav__menu--hamburger-img {
+    max-width: 2.5em;
+    cursor: pointer; }
+  .nav__menu--large-menu {
+    background-color: red; }

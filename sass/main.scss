@@ -1,10 +1,47 @@
+// importing the variables file
+@import "media.scss";
 @import "variables.scss";
 
+// styling the navigation manu
 
-
-
-
-
-body{
-  background: $bg-color;
+.hide-on-sm {
+  display: none;
 }
+
+.nav {
+
+  margin: 5rem auto;
+
+  &__logo-div {
+    // border: 2px solid red;
+    
+    &--img {
+      max-width: 10em;
+      margin-left: 2rem;
+    }
+  }
+
+  &__menu {
+
+    &--hamburger-div {
+      text-align: right;
+    }
+
+    &--hamburger-img {
+      max-width: 2.5em;
+      cursor: pointer;
+    }
+
+    &--large-menu {
+      background-color: red;
+    }
+
+
+  }
+}
+
+
+
+
+
+

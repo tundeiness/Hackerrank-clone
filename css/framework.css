@@ -32,6 +32,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
   line-height: 1;
+  margin-right:0.5%;
+  margin-left:0%; 
 }
 ol, ul {
   list-style: none;
@@ -107,5 +109,13 @@ table {
 }
 
 .center {
-  margin: 0 auto;
-}
+  justify-content: center;
+  align-items: center;
+} 
+
+
+/* div[class*="col"]::after, div[rel*="col"]::after {
+  content: "";
+  clear: both;
+  display: table; } */
+

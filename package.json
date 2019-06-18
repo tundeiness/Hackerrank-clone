@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tundeiness/Hackerrank-clone/issues"
   },
-  "homepage": "https://github.com/tundeiness/Hackerrank-clone#readme"
+  "homepage": "https://github.com/tundeiness/Hackerrank-clone#readme",
+  "devDependencies": {
+    "node-sass": "^4.12.0"
+  }
 }
