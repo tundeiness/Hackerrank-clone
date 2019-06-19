@@ -97,27 +97,24 @@
       .underline:hover {
         text-decoration: none;
 
+      }
     }
-
   }
 
-
   &__icon-div {
-
+  
     width: 100%;
     margin: 0 2rem;
     text-align: center;
     overflow: hidden;
+    
     &--icon{
       height: 50%;
-
+  
     }
-
   }
-
-
-
 }
+
 
 
 
