@@ -59,7 +59,7 @@
       transition: all .3s;
       padding: .5rem 0;
     }
-    
+
     &--link:hover {
       border-bottom: 3px solid #32c766;
     }
@@ -132,10 +132,10 @@
 
     &--btn {
       display: inline-block;
-      border: 1px solid green;
+      // border: 1px solid green;
       border-radius: 5%;
       padding: 1rem 2rem;
-      background-color: green;
+      background-color:#32c766;
       color: #fff;
       text-decoration: none;
       font-size: 1rem;
@@ -163,15 +163,15 @@
   }
 
   &__icon-div {
-  
+
     width: 100%;
     margin: 0 2rem;
     text-align: center;
     overflow: hidden;
-    
+
     &--icon{
       height: 50%;
-  
+
     }
   }
 }
@@ -180,6 +180,73 @@
   display: none;
 }
 
+.contents {
+
+  display: flex;
+  flex-wrap: wrap;
+  background-image: linear-gradient(to bottom, #f3f7f7 0%, #ffffff 100%);
+  padding: 2rem 1.5rem;
+
+  &__content-one {
+    display: block;
+
+    &--small-head {
+      text-transform: uppercase;
+      color: #738f93;
+      font-size: .85rem;
+      text-align: left;
+    }
+
+    &--big-head {
+      font-family: sans-serif;
+      color: #39424e;
+      font-size: 2rem;
+      text-transform: capitalize;
+      line-height: 1.5;
+      font-weight: 700;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      letter-spacing: -1px;
+      text-align: left;
+    }
+
+    &--text-body {
+    font-size: 1.5rem;
+    max-width: 17rem;
+    color: #738f93;
+    text-align: left;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    }
+
+    &--btn {
+      background: #fff;
+      border: 1px solid #1ba94c;
+      text-decoration: none;
+      color: #1ba94c;
+      display: inline-block;
+      border-radius: 1%;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: .5rem;
+      text-transform: capitalize;
+    }
+
+    &--btn:hover {
+      color: #32c766;
+    }
+  }
+
+  &__content-two {
+
+  }
+
+
+
+
+}
 
 
 
