@@ -243,21 +243,18 @@
     }
   }
 
-  &__content-two {
-
-  }
-
 }
 
 .img-hero {
 
-  display: flex;
-  flex-wrap: wrap;
+  // display: flex;
+  // flex-wrap: wrap;
+  // height: 20rem;
   padding: 2rem 1.5rem;
   background-color: #25b6d1;
 
   &__text-side {
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
 
     &--heading {
       font-family: sans-serif;
@@ -285,7 +282,6 @@
 
     &--btn {
        background: #fff;
-      // border: 1px solid #1ba94c;
       text-decoration: none;
       color: #39424e;
       display: inline-block;
@@ -299,15 +295,15 @@
 
   }
 
-  &____img-side {
-      max-width: 590px;
-    &--img {
-      width: 100%;
-    }
+  &__img-side {
+      width: 590px;
+      margin: 0 auto;
+      padding: 8rem;
+      background-image: url('../img/desktop.png');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
   }
-
-
-
 }
 
 

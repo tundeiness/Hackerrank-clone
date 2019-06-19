@@ -23,7 +23,17 @@
         width: 50%;
     }
 
-    .div-two {
-        width: 50%;
+    .img-hero {
+
+        padding: 0 1.5rem !important;
+
+        &__text-side {
+            width: 40%;
+        }
+        
+        &__img-side {
+            width: 100%;
+            margin: 0;
+        }
     }
 }
