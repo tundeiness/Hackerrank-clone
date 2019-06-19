@@ -1,15 +1,16 @@
 # Hackerrank-clone
-Re-engineering of Hackerrank using a simple grid-based framework
+Re-engineering of Hackerrank using a grid-based framework
 
-The Hackerrank-clone project is aimed at applying the knowledge of positioning and floating elements using CSS to build an exact copy of the New York Times page.
+This Hackerrank-clone project is aimed at applying a grid-based framework
+developed by the authors.
 
 ## Authors
 This projects was executed by the duo of **Radouane** & **Tunde**.
-Meet Radouane here on [Github](http://www.google.com) and, here on  [LinkedIn](http://www.google.com).
-Meet Tunde here on  [Github](http://www.google.com) and,  here on [LinkedIn](http://www.google.com)
+Meet Radouane here on [Github](https://github.com/Redvanisation) and, here on  [LinkedIn](https://www.linkedin.com/in/redvan/).
+Meet Tunde here on  [Github](https://github.com/tundeiness/) and,  here on [LinkedIn](https://www.linkedin.com/in/tunde-oretade/)
 
 ## Technologies used.
-HTML, CSS, SASS
+HTML, CSS, and SASS
 
 
 ## Setup

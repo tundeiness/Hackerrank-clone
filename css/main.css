@@ -78,8 +78,6 @@
     border-color: #b7c9cc; }
 
 .hero {
-  display: flex;
-  flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
   text-align: center;
