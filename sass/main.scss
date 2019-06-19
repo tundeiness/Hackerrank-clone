@@ -6,12 +6,17 @@
 
 .nav {
 
-  margin: 5rem auto;
+  // margin: 5rem auto;
+  padding: 2rem 0 .5rem;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 1px 5px 1px rgba(0,0,0,.2);
 
   &__container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: .5rem;
   }
 
   &__logo-div {
@@ -64,12 +69,6 @@
       border-bottom: 3px solid #32c766;
     }
 
-    &--signup {
-      // padding: .rem;
-
-      // border: 1px solid red;
-    }
-
     &--btn1:link,
     &--btn1:visited,
     &--btn2:link,
@@ -111,6 +110,7 @@
   justify-content: center;
   align-content: center;
   text-align: center;
+  padding-top: 15rem;
 
   &__big-title {
     display: block;
