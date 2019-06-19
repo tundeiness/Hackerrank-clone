@@ -106,7 +106,7 @@
 
 .hero {
   display: flex;
-  flex-wrap: no-wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   align-content: center;
   text-align: center;
@@ -181,9 +181,6 @@
 }
 
 .contents {
-
-  display: flex;
-  flex-wrap: wrap;
   background-image: linear-gradient(to bottom, #f3f7f7 0%, #ffffff 100%);
   padding: 2rem 1.5rem;
 
@@ -247,9 +244,6 @@
 
 .img-hero {
 
-  // display: flex;
-  // flex-wrap: wrap;
-  // height: 20rem;
   padding: 2rem 1.5rem;
   background-color: #25b6d1;
 
@@ -271,7 +265,7 @@
 
     &--text-body {
       color: #fff;
-      font-family: "Open Sans" sans-serif;
+      font-family: "Open Sans", sans-serif;
       font-size: 1rem;
       max-width: 19rem;
       text-align: left;
@@ -303,6 +297,34 @@
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+  }
+}
+
+.footer {
+  padding: 3rem;
+
+  &__ul {
+    padding: .5rem 0;
+
+    &--li {
+      padding: .3rem 0;
+    }
+
+    &--link:link,
+    &--link:visited {
+      text-decoration: none;
+      color: #576871;
+      font-weight: 100;
+      font-size: 14px;
+    }
+
+    &--link:hover {
+      color: #1ba94c;
+    }
+
+    &--img {
+      width: 10rem;
+    }
   }
 }
 

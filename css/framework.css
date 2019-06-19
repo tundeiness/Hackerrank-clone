@@ -68,7 +68,7 @@ table {
 .row {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
+  width: 100vw;
 
 }
 
@@ -109,11 +109,23 @@ table {
   width: calc(12% - 20px);
 }
 
+.col-1-of-6 {
+  width: calc(100% / 7);
+}
+
 .center {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-} 
+}
+
+.padding-bottom {
+  padding-bottom: 1.5rem;
+}
+
+.margin-right {
+  margin-right: 3rem;
+}
 
 
 /* div[class*="col"]::after, div[rel*="col"]::after {
