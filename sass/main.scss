@@ -189,6 +189,7 @@
 
   &__content-one {
     display: block;
+    padding-bottom: 3rem;
 
     &--small-head {
       text-transform: uppercase;
@@ -211,8 +212,9 @@
     }
 
     &--text-body {
+
     font-size: 1.5rem;
-    max-width: 17rem;
+    max-width: 19rem;
     color: #738f93;
     text-align: left;
     line-height: 1.5;
@@ -221,6 +223,7 @@
     }
 
     &--btn {
+     
       background: #fff;
       border: 1px solid #1ba94c;
       text-decoration: none;

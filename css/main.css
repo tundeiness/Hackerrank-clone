@@ -2,7 +2,11 @@
   .hide-on-lg {
     display: none; }
   .hide-on-sm {
-    display: block !important; } }
+    display: block !important; }
+  .div-one {
+    width: 50%; }
+  .div-two {
+    width: 50%; } }
 
 .nav {
   margin: 5rem auto; }
@@ -106,7 +110,8 @@
   background-image: linear-gradient(to bottom, #f3f7f7 0%, #ffffff 100%);
   padding: 2rem 1.5rem; }
   .contents__content-one {
-    display: block; }
+    display: block;
+    padding-bottom: 3rem; }
     .contents__content-one--small-head {
       text-transform: uppercase;
       color: #738f93;
@@ -125,7 +130,7 @@
       text-align: left; }
     .contents__content-one--text-body {
       font-size: 1.5rem;
-      max-width: 17rem;
+      max-width: 19rem;
       color: #738f93;
       text-align: left;
       line-height: 1.5;
