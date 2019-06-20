@@ -1,0 +1,231 @@
+@media only screen and (min-width: 990px) {
+  .hide-on-lg {
+    display: none; }
+  .hide-on-sm {
+    display: block !important; }
+  .contents {
+    padding-top: 35px;
+    padding-right: 15px;
+    padding-bottom: 35px;
+    padding-left: 15px; }
+  .contents__content-one {
+    padding-left: 5rem; }
+  .div-one {
+    width: 50%; }
+  .img-hero {
+    padding: 0 1.5rem !important; }
+    .img-hero__text-side {
+      width: 40%; }
+    .img-hero__img-side {
+      width: 100%;
+      margin: 0; } }
+
+@media only screen and (max-width: 990px) {
+  .col-1-of-6,
+  .col-2-of-6 {
+    width: 100%;
+    margin-bottom: 2rem; } }
+
+.nav {
+  padding: 2rem 0 .5rem;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.2); }
+  .nav__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: .5rem; }
+  .nav__logo-div--img {
+    max-width: 10em;
+    margin-left: 2rem;
+    padding: .3rem; }
+  .nav__menu--hamburger-div {
+    text-align: right; }
+  .nav__menu--hamburger-img {
+    max-width: 2.5em;
+    cursor: pointer; }
+  .nav__menu--large-menu {
+    width: 60%;
+    padding: .5rem; }
+  .nav__menu--li {
+    display: inline-block;
+    margin-right: 1rem; }
+  .nav__menu--link:link, .nav__menu--link:visited {
+    color: #666;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-bottom: 3px solid transparent;
+    transition: all .3s;
+    padding: .5rem 0; }
+  .nav__menu--link:hover {
+    border-bottom: 3px solid #32c766; }
+  .nav__menu--btn1:link, .nav__menu--btn1:visited, .nav__menu--btn2:link, .nav__menu--btn2:visited {
+    display: inline-block;
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #738f93;
+    font-size: 14px;
+    font-weight: 100; }
+  .nav__menu--btn1:hover, .nav__menu--btn2:hover {
+    color: #666; }
+  .nav__menu--btn2:link, .nav__menu--btn2:visited {
+    border: 1px solid #738f93;
+    padding: .5rem 1rem;
+    border-radius: 3px; }
+  .nav__menu--btn2:hover {
+    border-color: #b7c9cc; }
+
+.hero {
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  padding-top: 15rem; }
+  .hero__big-title {
+    display: block;
+    font-size: 2.5rem;
+    line-height: 1.3;
+    color: #666; }
+    .hero__big-title--strong {
+      font-weight: bold;
+      color: #000; }
+  .hero__btn-div {
+    text-align: center;
+    margin: 3rem auto;
+    padding: 1rem 0; }
+    .hero__btn-div--btn {
+      display: inline-block;
+      border-radius: 5%;
+      padding: 1rem 2rem;
+      background-color: #32c766;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: .5rem;
+      text-transform: capitalize;
+      margin-bottom: 1.5rem; }
+    .hero__btn-div--learn {
+      color: #666; }
+      .hero__btn-div--learn .underline {
+        text-decoration: underline;
+        text-decoration-color: #000;
+        cursor: pointer; }
+      .hero__btn-div--learn .underline:hover {
+        text-decoration: none; }
+  .hero__icon-div {
+    width: 100%;
+    margin: 0 2rem;
+    text-align: center;
+    overflow: hidden; }
+    .hero__icon-div--icon {
+      height: 50%; }
+
+.hide-on-sm {
+  display: none; }
+
+.contents {
+  background-image: linear-gradient(to bottom, #f3f7f7 0%, #ffffff 100%);
+  padding: 2rem 1.5rem; }
+  .contents__content-one {
+    display: block;
+    padding-bottom: 3rem; }
+    .contents__content-one--small-head {
+      text-transform: uppercase;
+      color: #738f93;
+      font-size: .85rem;
+      text-align: left; }
+    .contents__content-one--big-head {
+      font-family: sans-serif;
+      color: #39424e;
+      font-size: 2rem;
+      text-transform: capitalize;
+      line-height: 1.5;
+      font-weight: 700;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      letter-spacing: -1px;
+      text-align: left; }
+    .contents__content-one--text-body {
+      font-size: 1.5rem;
+      max-width: 19rem;
+      color: #738f93;
+      text-align: left;
+      line-height: 1.5;
+      padding-bottom: 1rem;
+      font-weight: 400; }
+    .contents__content-one--btn {
+      background: #fff;
+      border: 1px solid #1ba94c;
+      text-decoration: none;
+      color: #1ba94c;
+      display: inline-block;
+      border-radius: 1%;
+      padding: 1rem 2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: .5rem;
+      text-transform: capitalize; }
+    .contents__content-one--btn:hover {
+      color: #32c766; }
+
+.img-hero {
+  padding: 2rem 1.5rem;
+  background-color: #25b6d1; }
+  .img-hero__text-side {
+    margin-bottom: 2rem; }
+    .img-hero__text-side--heading {
+      font-family: sans-serif;
+      color: #fff;
+      font-size: 1.8rem;
+      text-transform: capitalize;
+      line-height: 1.5;
+      font-weight: 600;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      letter-spacing: -1px;
+      text-align: left; }
+    .img-hero__text-side--text-body {
+      color: #fff;
+      font-family: "Open Sans", sans-serif;
+      font-size: 1rem;
+      max-width: 19rem;
+      text-align: left;
+      line-height: 1.5;
+      padding-bottom: 1rem; }
+    .img-hero__text-side--btn {
+      background: #fff;
+      text-decoration: none;
+      color: #39424e;
+      display: inline-block;
+      border-radius: 3%;
+      padding: 1.2rem 2.2rem;
+      font-size: 1rem;
+      font-weight: 600;
+      line-height: .5rem;
+      text-transform: capitalize; }
+  .img-hero__img-side {
+    width: 590px;
+    margin: 0 auto;
+    padding: 8rem;
+    background-image: url("../img/desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+.footer {
+  padding: 3rem; }
+  .footer__ul {
+    padding: .5rem 0; }
+    .footer__ul--li {
+      padding: .3rem 0; }
+    .footer__ul--link:link, .footer__ul--link:visited {
+      text-decoration: none;
+      color: #576871;
+      font-weight: 100;
+      font-size: 14px; }
+    .footer__ul--link:hover {
+      color: #1ba94c; }
+    .footer__ul--img {
+      width: 10rem; }

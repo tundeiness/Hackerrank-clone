@@ -1,0 +1,50 @@
+@media only screen and (min-width: 990px) {
+
+    .hide-on-lg {
+        display: none;
+    }
+
+    .hide-on-sm {
+        display: block !important;
+    }
+
+    .contents {
+        padding-top: 35px;
+        padding-right: 15px;
+        padding-bottom: 35px;
+        padding-left: 15px;
+    }
+
+    .contents__content-one {
+        padding-left: 5rem;
+    }
+
+    .div-one {
+        width: 50%;
+    }
+
+    .img-hero {
+
+        padding: 0 1.5rem !important;
+
+        &__text-side {
+            width: 40%;
+        }
+        
+        &__img-side {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+
+}
+
+@media only screen and (max-width: 990px) {
+
+    .col-1-of-6,
+    .col-2-of-6 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
