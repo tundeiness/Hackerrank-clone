@@ -22,6 +22,6 @@ Open your git bash and cd to the location you'd like to put your files the run t
 
 
 Here is the link to the live version of this project
-[here](https://rawcdn.githack.com/tundeiness/Hackerrank-clone/52fac6423edfb2c61ef311409bac066e8efd0551/index.html)
+[here](https://tundeiness.github.io/Hackerrank-clone/)
 
 
